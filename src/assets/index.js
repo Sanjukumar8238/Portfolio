@@ -25,12 +25,23 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import amazon from "./amazon.svg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import empmanage from "./empmanage.jpeg";
+import SDG from "./SDG.png";
+import chat from "./chat.png";
+import stock from "./stock.jpg";
+import seizure from "./seizure.jpg";
 
 export {
+  seizure,
+  stock,
+  chat,
+  SDG,
+  empmanage,
   logo,
   backend,
   creator,
@@ -59,4 +70,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  amazon,
 };

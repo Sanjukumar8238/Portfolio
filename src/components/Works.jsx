@@ -22,7 +22,7 @@ const ProjectCard=({index, name, description, tags, image, source_code_link})=>{
       >
         <div className="relative w-full h-[230px]">
          <img src={image} alt={name}
-          className="w-full h-full object-cover rounded-2xl"
+          className="w-full h-full object-fill rounded-2xl"
          />
 
          <div
@@ -42,7 +42,7 @@ const ProjectCard=({index, name, description, tags, image, source_code_link})=>{
 
         </div>
 
-        <div className="mt-5">
+        <div className="mt-5 h-60">
          <h3 className="text-white font-bold text-[24px]">{name}</h3>
          <p className="mt-2 text-secondary text-[14px]">{description}</p>
         </div>
@@ -75,7 +75,7 @@ const Works = () => {
           variants={fadeIn("","",0.1,1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos in it. I reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.
+          Following projects highlight my technical expertise and problem-solving abilities through practical, real-world applications. Each project includes a brief overview, showcasing my proficiency in various technologies, along with links to the code repositories and live demos. They demonstrate my capability to tackle complex challenges, adapt to different tech stacks, and manage projects from concept to deployment.
 
         </motion.p>
       </div>

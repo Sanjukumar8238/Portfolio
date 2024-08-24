@@ -26,6 +26,12 @@ const Contact = () => {
 
   const handleSubmit= (e) => {
     e.preventDefault();
+
+    if(!form.name || !form.email || !form.message){
+      alert('Fill all the fields.')
+      return
+    }
+
     setLoading(true);
 
     emailjs.send(
@@ -85,7 +91,7 @@ const Contact = () => {
             <textarea rows="7"  name="message" value={form.message} onChange={handleChange} placeholder="What do you want to say?"
             className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium" />
           </label>
-
+          {/* <p className=" text-red-700 -mt-5 -mb-5">{'Fill all the fields.'}</p> */}
           <button
             type="submit"
             className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl"
@@ -93,6 +99,9 @@ const Contact = () => {
             {loading ? 'Sending...' : 'Send'}
 
           </button>
+
+          
+
         </form>
       </motion.div>
 
