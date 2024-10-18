@@ -35,8 +35,11 @@ import SDG from "./SDG.png";
 import chat from "./chat.png";
 import stock from "./stock.jpg";
 import seizure from "./seizure.jpg";
+import cnc from "./cnc.png";
+import shop from "./shop.svg";
 
 export {
+  shop,
   seizure,
   stock,
   chat,
@@ -71,4 +74,5 @@ export {
   jobit,
   tripguide,
   amazon,
+  cnc,
 };

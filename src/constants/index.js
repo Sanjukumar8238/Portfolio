@@ -29,6 +29,8 @@ import {
   chat,
   stock,
   seizure,
+  cnc,
+  shop,
 } from "../assets";
 
 export const navLinks = [
@@ -293,16 +295,20 @@ const projects = [
     source_code_link: "https://github.com/Sanjukumar8238/Stock-Price-Predictor",
   },
   {
-    name: "Seizure Detection",
+    name: "E-Commerce Website",
     description:
-      "This project applies the Empirical Wavelet Transform (EWT) method to EEG signal data to detect and classify epileptic seizures. The EWT method is an adaptive signal decomposition technique that is particularly effective for analyzing nonlinear and non-stationary signals, such as EEG data.",
+      "Developed an e-commerce platform using Next.js 14 with server-side and client-side rendering. The project featured Clerk-based authentication, an Admin Dashboard, Stripe integration for payments, and optimized API routes for faster order processing. The UI was built with Tailwind CSS and Shadcn UI, and Cloudinary was used for efficient image upload and storage.",
     tags: [
       {
-        name: "Python",
+        name: "Next.js 14",
         color: "blue-text-gradient",
       },
+      {
+        name: "TypeScript",
+        color: "green-text-gradient",
+      },
     ],
-    image: seizure,
+    image: shop,
     source_code_link: "https://github.com/Sanjukumar8238/Stock-Price-Predictor",
   },
   {
@@ -319,7 +325,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: SDG,
+    image: cnc,
     source_code_link:
       "https://github.com/Sanjukumar8238/SDG-Progress-Predictor",
   },
